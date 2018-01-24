@@ -4,6 +4,6 @@ class Pirate
   def initialize(details)
     @name = details[:pirate[name]]
     @weight = details[:pirate[weight]]
-    @height = details[:pirate[weight]]
+    @height = details[:pirate[height]]
   end
 end
