@@ -11,6 +11,6 @@ class Ship
   end
   
   def self.clear
-
+    @@all_ships.clear
   end
 end
