@@ -2,12 +2,12 @@
 <html>
 <body>
 <h1>Pirate Name: <%=@pirate.name%></h1>
-<p><%=@pirate.weight%></p>
-<p><%=@pirate.height%></p>
+<p>Weight: <%=@pirate.weight%></p>
+<p>Height: <%=@pirate.height%></p>
 <% @ships.each do |ship| %>
-  <h2><%=ship.name%></h2>
-  <p><%=ship.type%></p>
-  <p><%=ship.booty%></p>
+  <h2>Ship Name: <%=ship.name%></h2>
+  <p>Type: <%=ship.type%></p>
+  <p>Booty: <%=ship.booty%></p>
 <% end %>
 </body>
 </html>
