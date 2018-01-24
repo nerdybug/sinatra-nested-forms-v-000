@@ -10,6 +10,10 @@ class Ship
     @@all_ships << self
   end
 
+  def self.all
+    @@all_ships
+  end
+
   def self.clear
     @@all_ships.clear
   end
