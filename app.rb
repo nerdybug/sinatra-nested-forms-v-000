@@ -13,6 +13,7 @@ module FormsLab
 
     post '/pirates' do
       # stuff
+      
       erb :"pirates/show"
     end
   end
