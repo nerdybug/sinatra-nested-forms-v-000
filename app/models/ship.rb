@@ -3,9 +3,9 @@ class Ship
   @@all_ships  = []
 
   def initialize(details)
-    @name = details["pirate[ships][][name]"]
-    @type = details["pirate[ships][][type]"]
-    @booty = details["pirate[ships][][booty]"]
+    @name = details[:name]
+    @type = details[:type]
+    @booty = details[:booty]
 
     @@all_ships << self
   end
