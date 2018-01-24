@@ -15,6 +15,7 @@ module FormsLab
       @pirate = Pirate.new(params[:pirate])
       params[:pirate][:ships].each { |details| Ship.new(details) }
       @ships = Ship.all
+
       erb :"pirates/show"
     end
   end
